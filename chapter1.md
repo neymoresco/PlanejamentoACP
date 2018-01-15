@@ -1,8 +1,8 @@
 ---
-title       : Insert the chapter title here
-description : Insert the chapter description here
+title       : Planejamento ACP
+description : Comandos básicos para utilização do R.
 attachments :
-  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
+  slides_link : 
 
 ---
 ## A really bad movie
@@ -15,27 +15,19 @@ skills: 1
 key: 07b22b4569
 ```
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movie has the worst rating assigned to it?
+Como devo chamar meu chefinho querido:
 
 `@instructions`
-- Adventure
-- Action
-- Animation
-- Comedy
+- Mestre
+- Amo
+- Majestade
+- Genioo
 
 `@hint`
-Have a look at the plot. Which color does the point with the lowest rating have?
+A elisiane sabe de cor!
 
 `@pre_exercise_code`
 ```{r}
-# The pre exercise code runs code to initialize the user's workspace.
-# You can use it to load packages, initialize datasets and draw a plot in the viewer
-
-movies <- read.csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
-library(ggplot2)
-
-ggplot(movies, aes(x = runtime, y = rating, col = genre)) + geom_point()
 ```
 
 `@sct`
@@ -47,6 +39,52 @@ msg_success <- "Exactly! There seems to be a very bad action movie in the datase
 test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
 
+
+---
+## Exercicio para Elisiane Insuportavel
+Bem vindo ao curso de R do planejamento da ACP!
+
+```yaml
+type: NormalExercise
+key: 1e10012e16
+lang: r
+xp: 100
+skills: 1
+```
+
+
+`@instructions`
+Bem vindo ao curso de R do planejamento da ACP!
+
+`@hint`
+
+`@pre_exercise_code`
+```{r}
+x <- 10
+ney <- 
+ney
+```
+
+`@sample_code`
+```{r}
+x <- 10
+ney <- 
+ney
+```
+
+`@solution`
+```{r}
+x <- 10
+
+ney <- "mestre"
+
+ney
+```
+
+`@sct`
+```{r}
+
+```
 ---
 ## More movies
 
